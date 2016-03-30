@@ -1,0 +1,25 @@
+{
+  "name": "HYStorage",
+  "version": "0.1.0",
+  "summary": "A short description of HYStorage.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/HYStorage",
+  "license": "MIT",
+  "authors": {
+    "knight": "huangbin911@gmial.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/HYStorage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "HYStorage": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

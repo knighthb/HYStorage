@@ -1,0 +1,14 @@
+PODS:
+  - HYStorage (0.1.0)
+
+DEPENDENCIES:
+  - HYStorage (from `../`)
+
+EXTERNAL SOURCES:
+  HYStorage:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HYStorage: 50e5558c386bb0ca2a0fb6a7ae3883c25dd8b5f6
+
+COCOAPODS: 0.39.0

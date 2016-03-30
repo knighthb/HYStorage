@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>HYStorage-HYStorage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>HYStorage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HYStorage_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HYStorage_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2C01F23F4E2D29F078480398DB765076</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A3C270AE5FE552638E7D6D3A107F8079</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE7FC7A9094971F112B6CD6182FD555E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E375B6A73C6AA238FE3F94B7C2F9DE52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

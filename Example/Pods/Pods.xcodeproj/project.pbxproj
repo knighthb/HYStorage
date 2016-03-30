@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15B47874A692E74189A3B93F471E03AD /* HYFileStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 432110A6D71EDEAFFE6910736B7C37A2 /* HYFileStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		171EAB8FE73944C3EB58E031C6FBEA86 /* HYArchiveStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C6329D8707EAF18DAB11FDEC5EAC3 /* HYArchiveStorage.m */; };
+		183B7196E72A77B1257AC27265EE89E4 /* HYDBStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB9F214B0BB77DE557268C8992A4B90 /* HYDBStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2460CB53B6C4C3EBD77221475070DD58 /* Pods-HYStorage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E897DC7FE619462E3E03B89678B26FC /* Pods-HYStorage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DF1C01E35528665A92D6B9FFC4C67BC /* HYCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B23B49805CFC66572F662060762161E /* HYCoreDataStorage.m */; };
+		4CC55A3993FA43233B7774543F1EAC4F /* Pods-HYStorage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E5BC448E3E9B120F58FDC4E7D879B3 /* Pods-HYStorage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78FB973CCD8761FA818E0EA30E73307C /* HYCoreDataStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = B521F17142050B0BEC07D24B2FD56B48 /* HYCoreDataStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E129823F3EDEFFFB89A58112A0AC6F5 /* HYStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D83856B9B139BC03CB497546C7D0D /* HYStorage.m */; };
+		7FBE82A025B59F1204EE82CB9F4E42D4 /* HYFileStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF11CABB5BD959475A1590020C54ABE /* HYFileStorage.m */; };
+		99F8B05038E7F2CE860CD695E4B36355 /* HYStorage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B88CF4BA89D5E9F2942981017E0990C0 /* HYStorage.bundle */; };
+		B0CF1B2E9AA8A702A6F12B787B3F99D5 /* Pods-HYStorage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A0582252474B3203C778B96D64204 /* Pods-HYStorage_Tests-dummy.m */; };
+		BD9B553A644A215FB32358054CD662F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BF0A44917558172600D934E16F287960 /* HYDBStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB55C2AEF8997E12E705A284F55A7CB /* HYDBStorage.m */; };
+		C604C885419B815872A1A059F1983B10 /* HYStorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E7199CE2D12634758A6A7C56A7BE46 /* HYStorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFD7A80000EA21CA49904A0F67B23D6C /* Pods-HYStorage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4910A79B7174929713254E7ADB3416C2 /* Pods-HYStorage_Example-dummy.m */; };
+		D122BAE42316FD1C0EEEC8CB8D7401BD /* HYStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 920D3C0C05EEB35DEBFC7A8A5D630110 /* HYStorage-dummy.m */; };
+		E75637BD41514418519CF536A46770C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F09F9BEDB4D24B00F25D6FA0A9AB9E2F /* HYStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFCA1248982B4072780DF55D2E957A3 /* HYStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1BCA15CD10C39EF9B386EB760518B9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F36FD7974D25EF7D148FFF5411C35A6C /* HYArchiveStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA0794091854C1FA9653F72D38958AA /* HYArchiveStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		378B783CB66AE6985D77E309A76E8056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE7FC7A9094971F112B6CD6182FD555E;
+			remoteInfo = HYStorage;
+		};
+		408B01493101A93DD92F4CD8F1C9C9A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE7FC7A9094971F112B6CD6182FD555E;
+			remoteInfo = HYStorage;
+		};
+		487D8E4CFA900F3C1059554EB31E4A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C01F23F4E2D29F078480398DB765076;
+			remoteInfo = "HYStorage-HYStorage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E5BC448E3E9B120F58FDC4E7D879B3 /* Pods-HYStorage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYStorage_Example-umbrella.h"; sourceTree = "<group>"; };
+		0B23B49805CFC66572F662060762161E /* HYCoreDataStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYCoreDataStorage.m; sourceTree = "<group>"; };
+		0BB55C2AEF8997E12E705A284F55A7CB /* HYDBStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYDBStorage.m; sourceTree = "<group>"; };
+		1012CFEF97D63633128B8B65DB22339B /* Pods-HYStorage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HYStorage_Example.modulemap"; sourceTree = "<group>"; };
+		182A0582252474B3203C778B96D64204 /* Pods-HYStorage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYStorage_Tests-dummy.m"; sourceTree = "<group>"; };
+		1E2D83856B9B139BC03CB497546C7D0D /* HYStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYStorage.m; sourceTree = "<group>"; };
+		21BB56623ABFCCE8EAA9653D41279D02 /* Pods-HYStorage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYStorage_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		27CA660BEDD5536164CFFB60BAEE6978 /* Pods-HYStorage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HYStorage_Tests.modulemap"; sourceTree = "<group>"; };
+		31DF24027B5D2330CAB448D1FA9C8626 /* Pods-HYStorage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYStorage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3320705302464DFCB12E507F496398C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E7199CE2D12634758A6A7C56A7BE46 /* HYStorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYStorage-umbrella.h"; sourceTree = "<group>"; };
+		392BE356A0C0380143C2985246D2759D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41A45F18520E8068888A8DCDD0013B2B /* Pods-HYStorage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYStorage_Tests-resources.sh"; sourceTree = "<group>"; };
+		432110A6D71EDEAFFE6910736B7C37A2 /* HYFileStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYFileStorage.h; sourceTree = "<group>"; };
+		4910A79B7174929713254E7ADB3416C2 /* Pods-HYStorage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYStorage_Example-dummy.m"; sourceTree = "<group>"; };
+		6278449B0153B894ABE387637C36910D /* Pods-HYStorage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYStorage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		662E697E871FD9E9F1B354BC6B66D93D /* Pods-HYStorage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYStorage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		708C6329D8707EAF18DAB11FDEC5EAC3 /* HYArchiveStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYArchiveStorage.m; sourceTree = "<group>"; };
+		73CE1E158EE9322609F6D2B90E81C5A9 /* Pods-HYStorage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYStorage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		740D224EBE6BC4AAB5FFAB941B21786C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748E3ED2E08404B0F4F3FE752B0C6DA7 /* Pods-HYStorage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYStorage_Example-resources.sh"; sourceTree = "<group>"; };
+		920D3C0C05EEB35DEBFC7A8A5D630110 /* HYStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYStorage-dummy.m"; sourceTree = "<group>"; };
+		92C792CB3B36248FE06B0530D0B5D349 /* Pods-HYStorage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYStorage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9AA0794091854C1FA9653F72D38958AA /* HYArchiveStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYArchiveStorage.h; sourceTree = "<group>"; };
+		9BF0157952B8F84F45F2766213CE7499 /* HYStorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HYStorage.modulemap; sourceTree = "<group>"; };
+		9E897DC7FE619462E3E03B89678B26FC /* Pods-HYStorage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYStorage_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A2C44772F1D4EE1B5F196AFFCFF52409 /* Pods-HYStorage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYStorage_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A3B069543B4F2825236403E951B1D80C /* Pods-HYStorage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYStorage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B521F17142050B0BEC07D24B2FD56B48 /* HYCoreDataStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYCoreDataStorage.h; sourceTree = "<group>"; };
+		B52D658CDF8F2BCF29B0AC1FB6CA7E58 /* Pods-HYStorage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYStorage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B88CF4BA89D5E9F2942981017E0990C0 /* HYStorage.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYStorage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA32CD0BC750C4151B8DF4F016435FE7 /* Pods-HYStorage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYStorage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC33BE6B609C257D9F7803612AEAEE69 /* HYStorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYStorage-prefix.pch"; sourceTree = "<group>"; };
+		CDFCA1248982B4072780DF55D2E957A3 /* HYStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYStorage.h; sourceTree = "<group>"; };
+		D3879278B6280AE0DC24C4D2B2F2F9A4 /* Pods_HYStorage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYStorage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D934DEF70286A087FACE2F7080C2C2 /* Pods_HYStorage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYStorage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB9F214B0BB77DE557268C8992A4B90 /* HYDBStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYDBStorage.h; sourceTree = "<group>"; };
+		F65C99DC60A1EEBEE937539CD51A2B3D /* HYStorage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYStorage.xcconfig; sourceTree = "<group>"; };
+		F9BE129D1AD3D027A3E299E915DACE70 /* HYStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF11CABB5BD959475A1590020C54ABE /* HYFileStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYFileStorage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39084827A1AF0792C200B1796EDF5668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75637BD41514418519CF536A46770C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485051F3E7B5492537B38BAE3239BEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9B553A644A215FB32358054CD662F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A6D7A6EC367C28AA0E273686D235F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556FFCD3179449AD682F0C942B77D001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BCA15CD10C39EF9B386EB760518B9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0147608357189AD5A865983361E312FA /* HYStorage */ = {
+			isa = PBXGroup;
+			children = (
+				39587DAC241EFCC9F83B1D0D31559CC2 /* Pod */,
+				8503DF724015F220BC0B34869F60174D /* Support Files */,
+			);
+			name = HYStorage;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		028CE7853BF0F277E0EB3E26473DEA29 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9AA0794091854C1FA9653F72D38958AA /* HYArchiveStorage.h */,
+				708C6329D8707EAF18DAB11FDEC5EAC3 /* HYArchiveStorage.m */,
+				B521F17142050B0BEC07D24B2FD56B48 /* HYCoreDataStorage.h */,
+				0B23B49805CFC66572F662060762161E /* HYCoreDataStorage.m */,
+				DBB9F214B0BB77DE557268C8992A4B90 /* HYDBStorage.h */,
+				0BB55C2AEF8997E12E705A284F55A7CB /* HYDBStorage.m */,
+				432110A6D71EDEAFFE6910736B7C37A2 /* HYFileStorage.h */,
+				FFF11CABB5BD959475A1590020C54ABE /* HYFileStorage.m */,
+				CDFCA1248982B4072780DF55D2E957A3 /* HYStorage.h */,
+				1E2D83856B9B139BC03CB497546C7D0D /* HYStorage.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		39587DAC241EFCC9F83B1D0D31559CC2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				028CE7853BF0F277E0EB3E26473DEA29 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		3AC5D9113540D75B700C90734E7B755D /* Pods-HYStorage_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3320705302464DFCB12E507F496398C2 /* Info.plist */,
+				27CA660BEDD5536164CFFB60BAEE6978 /* Pods-HYStorage_Tests.modulemap */,
+				31DF24027B5D2330CAB448D1FA9C8626 /* Pods-HYStorage_Tests-acknowledgements.markdown */,
+				BA32CD0BC750C4151B8DF4F016435FE7 /* Pods-HYStorage_Tests-acknowledgements.plist */,
+				182A0582252474B3203C778B96D64204 /* Pods-HYStorage_Tests-dummy.m */,
+				21BB56623ABFCCE8EAA9653D41279D02 /* Pods-HYStorage_Tests-frameworks.sh */,
+				41A45F18520E8068888A8DCDD0013B2B /* Pods-HYStorage_Tests-resources.sh */,
+				9E897DC7FE619462E3E03B89678B26FC /* Pods-HYStorage_Tests-umbrella.h */,
+				662E697E871FD9E9F1B354BC6B66D93D /* Pods-HYStorage_Tests.debug.xcconfig */,
+				A3B069543B4F2825236403E951B1D80C /* Pods-HYStorage_Tests.release.xcconfig */,
+			);
+			name = "Pods-HYStorage_Tests";
+			path = "Target Support Files/Pods-HYStorage_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				E98F552F5A6D75F47A9B43B92177979E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FE4F87E6B9A6E084C698934D37BCFFEC /* Products */,
+				A1912B1A320E76C04570C09EEFFE4FCE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8503DF724015F220BC0B34869F60174D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BF0157952B8F84F45F2766213CE7499 /* HYStorage.modulemap */,
+				F65C99DC60A1EEBEE937539CD51A2B3D /* HYStorage.xcconfig */,
+				920D3C0C05EEB35DEBFC7A8A5D630110 /* HYStorage-dummy.m */,
+				BC33BE6B609C257D9F7803612AEAEE69 /* HYStorage-prefix.pch */,
+				38E7199CE2D12634758A6A7C56A7BE46 /* HYStorage-umbrella.h */,
+				392BE356A0C0380143C2985246D2759D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HYStorage";
+			sourceTree = "<group>";
+		};
+		8F4A78290D91BF66B46B0DCFFA3CFEC8 /* Pods-HYStorage_Example */ = {
+			isa = PBXGroup;
+			children = (
+				740D224EBE6BC4AAB5FFAB941B21786C /* Info.plist */,
+				1012CFEF97D63633128B8B65DB22339B /* Pods-HYStorage_Example.modulemap */,
+				6278449B0153B894ABE387637C36910D /* Pods-HYStorage_Example-acknowledgements.markdown */,
+				92C792CB3B36248FE06B0530D0B5D349 /* Pods-HYStorage_Example-acknowledgements.plist */,
+				4910A79B7174929713254E7ADB3416C2 /* Pods-HYStorage_Example-dummy.m */,
+				A2C44772F1D4EE1B5F196AFFCFF52409 /* Pods-HYStorage_Example-frameworks.sh */,
+				748E3ED2E08404B0F4F3FE752B0C6DA7 /* Pods-HYStorage_Example-resources.sh */,
+				02E5BC448E3E9B120F58FDC4E7D879B3 /* Pods-HYStorage_Example-umbrella.h */,
+				B52D658CDF8F2BCF29B0AC1FB6CA7E58 /* Pods-HYStorage_Example.debug.xcconfig */,
+				73CE1E158EE9322609F6D2B90E81C5A9 /* Pods-HYStorage_Example.release.xcconfig */,
+			);
+			name = "Pods-HYStorage_Example";
+			path = "Target Support Files/Pods-HYStorage_Example";
+			sourceTree = "<group>";
+		};
+		A1912B1A320E76C04570C09EEFFE4FCE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F4A78290D91BF66B46B0DCFFA3CFEC8 /* Pods-HYStorage_Example */,
+				3AC5D9113540D75B700C90734E7B755D /* Pods-HYStorage_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E98F552F5A6D75F47A9B43B92177979E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0147608357189AD5A865983361E312FA /* HYStorage */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FE4F87E6B9A6E084C698934D37BCFFEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B88CF4BA89D5E9F2942981017E0990C0 /* HYStorage.bundle */,
+				F9BE129D1AD3D027A3E299E915DACE70 /* HYStorage.framework */,
+				D3879278B6280AE0DC24C4D2B2F2F9A4 /* Pods_HYStorage_Example.framework */,
+				D8D934DEF70286A087FACE2F7080C2C2 /* Pods_HYStorage_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19FB2FC84A8E72009784967BA8F08258 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2460CB53B6C4C3EBD77221475070DD58 /* Pods-HYStorage_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E4EE3BE6503E12ACE6012F3E23D9ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36FD7974D25EF7D148FFF5411C35A6C /* HYArchiveStorage.h in Headers */,
+				78FB973CCD8761FA818E0EA30E73307C /* HYCoreDataStorage.h in Headers */,
+				183B7196E72A77B1257AC27265EE89E4 /* HYDBStorage.h in Headers */,
+				15B47874A692E74189A3B93F471E03AD /* HYFileStorage.h in Headers */,
+				C604C885419B815872A1A059F1983B10 /* HYStorage-umbrella.h in Headers */,
+				F09F9BEDB4D24B00F25D6FA0A9AB9E2F /* HYStorage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A176C2F8426CF934D5E1DA08A5E68B36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC55A3993FA43233B7774543F1EAC4F /* Pods-HYStorage_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C01F23F4E2D29F078480398DB765076 /* HYStorage-HYStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E96921AEEE2DFAAD46D89FA74BE3B35 /* Build configuration list for PBXNativeTarget "HYStorage-HYStorage" */;
+			buildPhases = (
+				3C4C45F818D786DB903B4D35CFC2F128 /* Sources */,
+				52A6D7A6EC367C28AA0E273686D235F6 /* Frameworks */,
+				2F2D39064C33AC3E6053FDD043EB93CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HYStorage-HYStorage";
+			productName = "HYStorage-HYStorage";
+			productReference = B88CF4BA89D5E9F2942981017E0990C0 /* HYStorage.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A3C270AE5FE552638E7D6D3A107F8079 /* Pods-HYStorage_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC300019BC4BB008E35D0A1979904C0E /* Build configuration list for PBXNativeTarget "Pods-HYStorage_Example" */;
+			buildPhases = (
+				0572A1658831D6C80C6A57F07E5CBF7C /* Sources */,
+				39084827A1AF0792C200B1796EDF5668 /* Frameworks */,
+				A176C2F8426CF934D5E1DA08A5E68B36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB641264BB042DD5FEB7DC0BDD2256A /* PBXTargetDependency */,
+			);
+			name = "Pods-HYStorage_Example";
+			productName = "Pods-HYStorage_Example";
+			productReference = D3879278B6280AE0DC24C4D2B2F2F9A4 /* Pods_HYStorage_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE7FC7A9094971F112B6CD6182FD555E /* HYStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F4714C94A08BFA1EFA6BD6A1062648 /* Build configuration list for PBXNativeTarget "HYStorage" */;
+			buildPhases = (
+				96C269E55EC77454B2967ED7FE597817 /* Sources */,
+				485051F3E7B5492537B38BAE3239BEC6 /* Frameworks */,
+				3617EB69FD9B2E3BCECB0957DC0526C4 /* Resources */,
+				39E4EE3BE6503E12ACE6012F3E23D9ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899DEC714833A4EF2FB9DAA8703E31C9 /* PBXTargetDependency */,
+			);
+			name = HYStorage;
+			productName = HYStorage;
+			productReference = F9BE129D1AD3D027A3E299E915DACE70 /* HYStorage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E375B6A73C6AA238FE3F94B7C2F9DE52 /* Pods-HYStorage_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4502BB7EB0478410158C1CBCB79E55 /* Build configuration list for PBXNativeTarget "Pods-HYStorage_Tests" */;
+			buildPhases = (
+				2835C5EF485CAF9C01E62FC8DC87AB97 /* Sources */,
+				556FFCD3179449AD682F0C942B77D001 /* Frameworks */,
+				19FB2FC84A8E72009784967BA8F08258 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				629A376004B4DD7D0EE4B41ED4B9D2D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYStorage_Tests";
+			productName = "Pods-HYStorage_Tests";
+			productReference = D8D934DEF70286A087FACE2F7080C2C2 /* Pods_HYStorage_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FE4F87E6B9A6E084C698934D37BCFFEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE7FC7A9094971F112B6CD6182FD555E /* HYStorage */,
+				2C01F23F4E2D29F078480398DB765076 /* HYStorage-HYStorage */,
+				A3C270AE5FE552638E7D6D3A107F8079 /* Pods-HYStorage_Example */,
+				E375B6A73C6AA238FE3F94B7C2F9DE52 /* Pods-HYStorage_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F2D39064C33AC3E6053FDD043EB93CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3617EB69FD9B2E3BCECB0957DC0526C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F8B05038E7F2CE860CD695E4B36355 /* HYStorage.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0572A1658831D6C80C6A57F07E5CBF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD7A80000EA21CA49904A0F67B23D6C /* Pods-HYStorage_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2835C5EF485CAF9C01E62FC8DC87AB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CF1B2E9AA8A702A6F12B787B3F99D5 /* Pods-HYStorage_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4C45F818D786DB903B4D35CFC2F128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C269E55EC77454B2967ED7FE597817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171EAB8FE73944C3EB58E031C6FBEA86 /* HYArchiveStorage.m in Sources */,
+				3DF1C01E35528665A92D6B9FFC4C67BC /* HYCoreDataStorage.m in Sources */,
+				BF0A44917558172600D934E16F287960 /* HYDBStorage.m in Sources */,
+				7FBE82A025B59F1204EE82CB9F4E42D4 /* HYFileStorage.m in Sources */,
+				D122BAE42316FD1C0EEEC8CB8D7401BD /* HYStorage-dummy.m in Sources */,
+				7E129823F3EDEFFFB89A58112A0AC6F5 /* HYStorage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		629A376004B4DD7D0EE4B41ED4B9D2D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYStorage;
+			target = AE7FC7A9094971F112B6CD6182FD555E /* HYStorage */;
+			targetProxy = 408B01493101A93DD92F4CD8F1C9C9A7 /* PBXContainerItemProxy */;
+		};
+		899DEC714833A4EF2FB9DAA8703E31C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HYStorage-HYStorage";
+			target = 2C01F23F4E2D29F078480398DB765076 /* HYStorage-HYStorage */;
+			targetProxy = 487D8E4CFA900F3C1059554EB31E4A1D /* PBXContainerItemProxy */;
+		};
+		BDB641264BB042DD5FEB7DC0BDD2256A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYStorage;
+			target = AE7FC7A9094971F112B6CD6182FD555E /* HYStorage */;
+			targetProxy = 378B783CB66AE6985D77E309A76E8056 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		075D6E13CCB86855EA57CCB699531E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65C99DC60A1EEBEE937539CD51A2B3D /* HYStorage.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HYStorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2E29E99B1AE7EC1F33D07F7B107A1EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52D658CDF8F2BCF29B0AC1FB6CA7E58 /* Pods-HYStorage_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HYStorage_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYStorage_Example/Pods-HYStorage_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HYStorage_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44BE788DD04F67ED260AB87FA749971E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662E697E871FD9E9F1B354BC6B66D93D /* Pods-HYStorage_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HYStorage_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYStorage_Tests/Pods-HYStorage_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HYStorage_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45A378F07D78E37F64982AD978A83121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65C99DC60A1EEBEE937539CD51A2B3D /* HYStorage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HYStorage/HYStorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYStorage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYStorage/HYStorage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = HYStorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F74C69DD894AF6A22D1F7851505B829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65C99DC60A1EEBEE937539CD51A2B3D /* HYStorage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HYStorage/HYStorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYStorage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYStorage/HYStorage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = HYStorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93BB57E807849208BEC409D74ED78F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B069543B4F2825236403E951B1D80C /* Pods-HYStorage_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HYStorage_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYStorage_Tests/Pods-HYStorage_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HYStorage_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96AFA0DF4915A249956129C9E301AC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73CE1E158EE9322609F6D2B90E81C5A9 /* Pods-HYStorage_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HYStorage_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYStorage_Example/Pods-HYStorage_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HYStorage_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFE04BF8CE984FF0ED2B79E4963C4E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65C99DC60A1EEBEE937539CD51A2B3D /* HYStorage.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HYStorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E96921AEEE2DFAAD46D89FA74BE3B35 /* Build configuration list for PBXNativeTarget "HYStorage-HYStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075D6E13CCB86855EA57CCB699531E16 /* Debug */,
+				DFE04BF8CE984FF0ED2B79E4963C4E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC300019BC4BB008E35D0A1979904C0E /* Build configuration list for PBXNativeTarget "Pods-HYStorage_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E29E99B1AE7EC1F33D07F7B107A1EDC /* Debug */,
+				96AFA0DF4915A249956129C9E301AC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F4714C94A08BFA1EFA6BD6A1062648 /* Build configuration list for PBXNativeTarget "HYStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A378F07D78E37F64982AD978A83121 /* Debug */,
+				5F74C69DD894AF6A22D1F7851505B829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4502BB7EB0478410158C1CBCB79E55 /* Build configuration list for PBXNativeTarget "Pods-HYStorage_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44BE788DD04F67ED260AB87FA749971E /* Debug */,
+				93BB57E807849208BEC409D74ED78F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
