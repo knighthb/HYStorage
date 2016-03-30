@@ -7,12 +7,31 @@
 //
 
 #import "HYAppDelegate.h"
+#import "HYArchiveStorage.h"
+@interface HYAppDelegate ()
+@property (nonatomic ,strong) HYArchiveStorage * storage;
+@end
 
 @implementation HYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    NSString * filePath =  NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject;
+    NSString * fileName = [filePath stringByAppendingPathComponent:@"storageTest"];
+    NSLog(@"fileName = %@",fileName);
+    self.storage = [[HYArchiveStorage alloc]  initWithPath:fileName];
+    for (int i = 0; i< 10; i++) {
+        
+        NSString * key = [NSString stringWithFormat:@"key%d",i];
+        //归档时解开注释
+//        NSString * value = @"hahahahahaha";
+//        [self.storage setValue:value forKey:key];
+        
+        //取数据
+        id value = [self.storage objectForKey:key];
+        NSLog(@"key = %@ | value = %@",key,value);
+        
+    }
     return YES;
 }
 

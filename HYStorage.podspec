@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "HYStorage"
   s.version          = "0.1.0"
-  s.summary          = "A short description of HYStorage."
+  s.summary          = "This is a storage for 58 huangye iOS team."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                         This is a storage for 58 huangye iOS team
+                         used by HYCoreframework
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/HYStorage"
+  s.homepage         = "https://github.com/knighthb/HYStorage"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "knight" => "huangbin911@gmial.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/HYStorage.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "knight" => "huangbin911@gmail.com" }
+  s.source           = { :git => "https://github.com/knighthb/HYStorage.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
