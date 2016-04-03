@@ -18,7 +18,7 @@ static dispatch_queue_t storage_creation_queue (){
     static dispatch_queue_t HY_storage_creation_queue;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        HY_storage_creation_queue = dispatch_queue_create("com.bj.58.HYcoreframework.storage.processing", DISPATCH_QUEUE_SERIAL);
+        HY_storage_creation_queue = dispatch_queue_create("com.bj.58.HYcoreframework.storage.processing", DISPATCH_QUEUE_CONCURRENT);
     });
     return HY_storage_creation_queue;
 }
@@ -52,7 +52,7 @@ static dispatch_queue_t storage_creation_queue (){
 
 - (void)setValue:(id<NSCoding>)value forKey:(id<NSCopying>)key {
     WeakSelf(weakSelf)
-    dispatch_async(storage_creation_queue(), ^{
+    dispatch_barrier_async(storage_creation_queue(), ^{
         StrongSelf(weakSelf)
         if (self.kvs) {
            id data = self.kvs[key];
@@ -77,7 +77,7 @@ static dispatch_queue_t storage_creation_queue (){
 
 - (void)removeObjectForKey:(id<NSCopying>)key {
     WeakSelf(weakself)
-    dispatch_async(storage_creation_queue(), ^{
+    dispatch_barrier_async(storage_creation_queue(), ^{
         StrongSelf(weakself)
         NSString * filePath = [self.path stringByAppendingPathComponent:[self HY_keyToString:key]];
         if ([self HY_removeItemAtPath:filePath]) {
@@ -88,7 +88,7 @@ static dispatch_queue_t storage_creation_queue (){
 
 - (void)removeAllObjects {
     WeakSelf(weakself)
-    dispatch_async(storage_creation_queue(), ^{
+    dispatch_barrier_async(storage_creation_queue(), ^{
         StrongSelf(weakself)
         NSString * filePath = self.path;
         if ([self HY_removeItemAtPath:filePath]) {
